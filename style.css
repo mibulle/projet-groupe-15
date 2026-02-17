@@ -1,0 +1,139 @@
+* {
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    gap: 20px; padding-top: 20px; padding-bottom: 20px;
+    color: ghostwhite;
+    width: 12OOpx;
+    background-image: url(fond-header.jpg);
+    object-fit: cover;
+}
+.logo {
+    width: 200px;height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+header h1 {
+        font-family: 'Poppins', sans-serif;
+    font-size: 3.2rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 60px;
+    background: linear-gradient(90deg, #ffffff, #00c6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+}
+ header nav ul {
+    list-style: none;
+    display: flex; gap: 20px; padding-right: 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white; 
+}
+.contenu{
+    padding-left: 30px; line-height: 20px;
+}
+h2{
+    margin-left: 20px; padding-bottom: 20px;
+    color: rgb(41, 34, 34);
+}
+body section {
+    padding-top: 40px;
+    font-size: 20px;
+    
+}
+#contact  ul {
+    padding-bottom: 40px;
+    line-height: 40px;
+}
+#membres ul {
+    margin-left: 80px;
+}
+#membres ul li a {
+    text-decoration: none;
+}
+#about p {
+    max-width: 800px;
+    text-indent: 2em;
+}
+header h1 {
+    text-align: center;
+    width: 100%;
+}
+
+.mibulle {
+    display: inline-block;
+    min-width: 120px;
+    padding: 10px 25px;
+    background-color: #252323;
+    color: rgb(21, 141, 171);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    text-align: center;}
+
+    .mibulle:hover {
+    background-color: rgb(21, 141, 171); 
+    color: white;                        
+    transform: translateY(-2px);        
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); }
+
+    #contact ul {
+    margin: 0 auto;
+    display: inline-block;
+    list-style: none;
+    padding-left: 0;
+    line-height: 30px;
+}
+
+.mibolle:hover {
+    background-color: rgb(198, 0, 0); 
+    color: white;                        
+    transform: translateY(-2px);        
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); }
+
+    #membres h2 {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 800;                    
+    font-size: 2.8rem;                   
+    color: #5414ad;                      
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+#about h2 {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #5b5762;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+#membres,
+#about,
+#contact {
+    background-color: #5aa1a0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#about p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #391f1f;
+    line-height: 1.7;
+    text-indent: 2em;
+    margin-bottom: 20px;
+    max-width: 800px;
+}
